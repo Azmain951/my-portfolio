@@ -1,0 +1,22 @@
+.header {
+    width: 100vw;
+    background-color: #1B242F;
+    border-bottom: 1px solid #37cdbe;
+    z-index: 5;
+}
+
+.header .menu a {
+    border-radius: 0px;
+    border-bottom: 1px solid #1B242F;
+}
+
+.header .menu a:hover {
+    color: #37cdbe;
+    background-color: #1B242F !important;
+    border-radius: 0px;
+    border-bottom: 1px solid #37cdbe;
+}
+
+.resume:hover {
+    color: #1B242F !important;
+}
