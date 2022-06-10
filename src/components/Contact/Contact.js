@@ -9,7 +9,6 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_15t9vwx', 'template_nh86ja1', form.current, 'qT3cBSJdOSl3P9Z2o')
             .then((result) => {
                 console.log(result.text);
@@ -21,7 +20,7 @@ const Contact = () => {
 
 
     return (
-        <div className='contact py-20'>
+        <div id='contact' className='contact py-20'>
             <h2 className='text-center text-4xl uppercase font-bold text-white mb-5'>Contact</h2>
             <p className='text-accent text-center text-xl'>Have a question or want to work together? </p>
             <form ref={form} onSubmit={sendEmail} className='flex flex-col justify-center items-center gap-3 mt-10'>

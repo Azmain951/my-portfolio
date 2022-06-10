@@ -12,9 +12,9 @@ const Header = () => {
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52">
                             <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Projects</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href='#about'>About</a></li>
+                            <li><a href='#projects'>Projects</a></li>
+                            <li><a href='#contact'>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Header = () => {
                         <li><a>Home</a></li>
                         <li><a href='#about'>About</a></li>
                         <li><a href='#projects'>Projects</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href='#contact'>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">

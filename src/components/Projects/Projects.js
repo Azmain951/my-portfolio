@@ -9,7 +9,7 @@ import { IoPlayForwardSharp } from "react-icons/io5";
 
 const Projects = () => {
     return (
-        <div id='projects' className='projects bg-base-200 py-20'>
+        <div id='projects' className='projects bg-gray-300 py-20'>
             <h2 className='text-center text-4xl text-primary uppercase font-bold'>My Projects</h2>
             <div className='grid grid-cols-3 gap-10 mt-16 m-10'>
                 <div class="card bg-base-100 shadow-xl">
